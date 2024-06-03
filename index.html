@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curd</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/> 
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+    
+<div class="bg">
+ <div class="container text-center pt-5">
+     
+    <div class="head pt-5 ">  
+        <h1 class="py-2 position-relative ">Bookmarker</h1>
+    </div>
+
+    <div class=" mt-5 pt-2"><p>...................................................................................................................................................................................................................................................................................................................................</p></div>
+     <div><h2><i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2></div>
+
+
+     <div class=" mx-auto mt-5">
+     <div class="sitename mb-4 mt-sm-4">
+        <label for="name" class="d-flex justify-content-start ps-2 lable " > <span><i class="fa-solid fa-book-bookmark pe-2 "></i></span><span class="fs-5">sitename</span></label>
+        <input type="text" class="form-control " id="name" placeholder="Bookmarker name" minlength="3" required maxlength="6"/>
+       
+     </div>
+
+     <div class="siteurl mb-3">
+        <label for="url" class="d-flex justify-content-start ps-2 lable " > <span><i class="fa-solid fa-link pe-2"></i></span><span class="fs-5">siteurl</span></label>
+        <input type="url" class="form-control " id="url" placeholder="Website url"/>
+       
+     </div>
+
+     <button onclick="add();" class="btn btn-danger d-block m-auto px-5 text-center ">submit</button>
+     </div>
+     <div class="  "><p>...................................................................................................................................................................................................................................................................................................................................</p></div>
+     <div class="table-responsive mx-auto  ">
+        <table class="table text-center align-middle">
+          <thead>
+            <tr>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Viste</th>
+                <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <!-- <button  class="btn btn-danger btn-sm"><a href="${purl.value} " target="_blank">Visite</a></button> -->
+
+          </tbody>
+        </table>
+      </div>
+
+ </div>
+
+</div>
+
+
+
+
+
+
+
+    <script src="boot jv/index.js"></script>
+    <script src="boot jv/bootstrap.bundle.min.js"></script>
+</body>
+</html>

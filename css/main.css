@@ -1,0 +1,104 @@
+
+
+.form-control:focus
+{
+    box-shadow: 0 0 0 .25rem #FEC260;
+}
+
+h2
+{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;    
+    -webkit-text-fill-color: transparent;
+
+}
+.bg
+{
+    background-color: #F7ECDE;
+
+    height: 900px;
+}
+.top-75
+{
+    bottom: -3%;
+    z-index: 1;
+}
+.z
+{
+    z-index: 99999999;
+}
+
+.lable
+{
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600 !important
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ .head h1{
+  
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        color: #352e28;
+        isolation: isolate;
+ 
+ }
+ .head h1::before
+ {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+ }
+ .head:hover h1::before
+{
+    height: 50%;
+}
+@media screen and (min-width:380px) {
+
+    .head h1::before
+ {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+ }
+}
+
+@media screen and (min-width:900px) {
+
+    .head h1::before
+ {
+    content: "";
+    position: absolute;
+    width: 24%;
+    height: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+ }
+}
